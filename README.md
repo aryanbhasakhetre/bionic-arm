@@ -1,16 +1,14 @@
-# 🦾 Bionic Arm — Gesture-Controlled Prosthetic
+ Bionic Arm — Gesture-Controlled Prosthetic
 
 A gesture-controlled bionic arm built using an **ATmega328P microcontroller** and **MPU6050 IMU sensor**, communicating wirelessly via **HC-05 Bluetooth**. The arm mirrors real-time hand gestures of the user, with applications in assistive robotics and prosthetics.
 
 ---
 
-## 📸 Demo
 
-> *Add photos/videos of your working model here*
 
 ---
 
-## 🧠 How It Works
+ How It Works
 
 ```
 User's Hand (Transmitter Side)
@@ -29,8 +27,7 @@ User's Hand (Transmitter Side)
 4. The receiver maps sensor values to servo motor angles — each finger servo corresponds to a gesture axis.
 
 ---
-
-## 🛠️ Components
+ Components
 
 | Component | Purpose |
 |-----------|---------|
@@ -43,7 +40,7 @@ User's Hand (Transmitter Side)
 
 ---
 
-## 📂 Project Structure
+ Project Structure
 
 ```
 bionic-arm/
@@ -60,7 +57,7 @@ bionic-arm/
 
 ## ⚡ Getting Started
 
-### Prerequisites
+Prerequisites
 - Arduino IDE (1.8.x or 2.x)
 - Libraries: `Wire.h` (built-in), `MPU6050` by Electronic Cats, `Servo.h` (built-in)
 
@@ -74,7 +71,7 @@ bionic-arm/
 
 ---
 
-## 📌 Key Features
+ Key Features
 - Real-time gesture detection via IMU
 - Wireless transmission over Bluetooth (~10m range)
 - Debouncing + threshold calibration for smooth servo response
@@ -82,7 +79,7 @@ bionic-arm/
 
 ---
 
-## 🔮 Future Improvements
+ Future Improvements
 - Add EMG (muscle) sensors for more natural control
 - Implement finger-level individual control
 - Port to ESP32 for WiFi + cloud logging of gesture data
@@ -90,7 +87,7 @@ bionic-arm/
 
 ---
 
-## 👤 Author
+ Author
 
 **Aryan Bhasakhetre**
 B.E. EXTC — Atharva College of Engineering, Mumbai
