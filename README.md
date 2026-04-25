@@ -48,11 +48,11 @@ User's Hand (Transmitter Side)
 ```
 bionic-arm/
 ├── transmitter/
-│   └── transmitter.ino       # Reads MPU6050, sends data via Bluetooth
+│   └── transmitter.ino       
 ├── receiver/
-│   └── receiver.ino          # Receives data, drives servo motors
+│   └── receiver.ino         
 ├── circuit/
-│   └── schematic.png         # Wiring diagram (add your own)
+│   └── schematic.png         
 └── README.md
 ```
 
