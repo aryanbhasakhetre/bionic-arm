@@ -91,7 +91,3 @@ Prerequisites
 B.E. EXTC — Atharva College of Engineering, Mumbai
 [LinkedIn](https://linkedin.com/in/aryanbhasakhetre) | [GitHub](https://github.com/aryanbhasakhetre)
 
----
-
-## 📄 License
-MIT License — free to use, modify, and distribute with attribution.
