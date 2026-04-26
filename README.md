@@ -47,21 +47,19 @@ bionic-arm/
 ├── transmitter/
 │   └── transmitter.ino       
 ├── receiver/
-│   └── receiver.ino         
-├── circuit/
-│   └── schematic.png         
+│   └── receiver.ino                    
 └── README.md
 ```
 
 ---
 
-## ⚡ Getting Started
+ Getting Started
 
 Prerequisites
 - Arduino IDE (1.8.x or 2.x)
 - Libraries: `Wire.h` (built-in), `MPU6050` by Electronic Cats, `Servo.h` (built-in)
 
-### Upload Steps
+ Upload Steps
 1. Clone this repo
 2. Open `transmitter/transmitter.ino` in Arduino IDE
 3. Install the MPU6050 library via Library Manager
